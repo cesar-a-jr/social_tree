@@ -30,7 +30,6 @@ body{
 
 .link{
     margin: 4px;
-    width: 50vh;
     border: 2px solid;
     border-color: #BB99DD;
     color: #BB99DD;
@@ -43,6 +42,7 @@ body{
 
 .btn{
     text-decoration: none;
+    width: 40%;
 }
 
 .icons{
@@ -57,5 +57,22 @@ body{
     background: #BB99DD;
     color: #FAF7FD;
     transition: 1s;
+}
+
+
+@media only screen and (max-width: 600px){
+    .btn{
+        width: 200px;
+    }
+    .icons{
+        margin: 24px;
+        width: 180px;
+    }
+    .img-perfil img{
+        display: flex;
+        align-items: center;
+        justify-content:center;
+        width: 150px;
+    }
 }
 
