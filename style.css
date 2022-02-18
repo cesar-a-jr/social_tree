@@ -62,7 +62,7 @@ body{
 
 @media only screen and (max-width: 600px){
     .btn{
-        width: 40%;
+        width: 200px;
     }
     .icons{
         margin: 24px;
