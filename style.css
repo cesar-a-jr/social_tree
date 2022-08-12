@@ -2,9 +2,9 @@ body{
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
-    background: #FAF7FD;
+    background: #e8e8e8;
     font-family: 'Poppins', sans-serif;
-    color: #BB99DD;
+    color: #04b3c8;
 }
 
 .container{
@@ -31,8 +31,8 @@ body{
 .link{
     margin: 4px;
     border: 2px solid;
-    border-color: #BB99DD;
-    color: #BB99DD;
+    border-color: #04b3c8;
+    color: #04b3c8;
     border-radius: 4px;
     display: flex;
     align-items: center;
@@ -54,7 +54,7 @@ body{
 }
 
 .link:hover{
-    background: #BB99DD;
+    background: #04b3c8;
     color: #FAF7FD;
     transition: 1s;
 }
